@@ -16,14 +16,14 @@ It can be built using
 example_basic_usage.cc makes use of an input datafile which is provided in the
 /data directory, and it should be run with
 
-   ./example_basic_usage < ../data/single-event.dat
+   ./example_basic_usage < ./data/single-event.dat
  
 The expected output can be found in example_basic_usage.ref
 
 A more advanced example is given in example_advanced_usage.cc, which can be built and run with 
 
     make example_advanced_usage
-   ./example_advanced_usage < ../data/single-event.dat
+   ./example_advanced_usage < ./data/single-event.dat
 
 and compared to the expected output example_advanced_usage.ref 
 This shows how to calculate shapes with multiple pTcut and R values, axes finding, user-defined jet-like event shapes, and uses of the event-storage.
